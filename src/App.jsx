@@ -5,6 +5,7 @@ import Navbar from '../components/navbar/Navbar'
 
 export default function App() {
 
+  
   const [darkMode, setDarkMode] = useState("light");
   
   return (
