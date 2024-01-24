@@ -1,0 +1,40 @@
+:root {
+  --backgrond: #fff;
+  --foreground: #d2d3db;
+  --color-text: #000;
+  --toggled-color: #000;
+}
+
+[data-theme="dark"] {
+  --backgrond: #000;
+  --foreground: #332940;
+  --color-text: #fff;
+  --toggled-color: #fff;
+}
+*{
+  background-color: var(--backgrond);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  transition-duration: 0.8s;
+}
+#main {
+  margin: 0 auto;
+  background-color: var(--backgrond);
+  color: var(--color-text);
+  heigth: 100vh;
+  padding: 0.5rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+
+#toggler{
+  font-size: 1.8rem;
+  color: var(--toggled-color);
+  border: none;
+  background-color: var(--toggeled-color);
+}
