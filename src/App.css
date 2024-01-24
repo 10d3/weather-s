@@ -22,7 +22,7 @@
   margin: 0 auto;
   background-color: var(--backgrond);
   color: var(--color-text);
-  heigth: 100vh;
+  height: 100vh;
   padding: 0.5rem 0.8rem;
   display: flex;
   flex-direction: column;
